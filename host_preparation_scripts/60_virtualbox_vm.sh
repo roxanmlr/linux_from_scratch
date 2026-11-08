@@ -25,7 +25,7 @@ if [ -n "$(losetup -j "$RAW" 2>/dev/null)" ]; then
 fi
 
 vm_exists()  { VBoxManage showvminfo "$VM" &>/dev/null; }
-vm_running() { VBoxManage showvminfo "$VM" --machinereadable 2>/dev/null | grep -q '^VMState="running"'; }
+vm_running() { VBoxManage showvminfo "$VM" --machinereadable 2>/dev/null | grep '^VMState="running"' >/dev/null; }
 
 if vm_exists && vm_running; then
     echo "La VM $VM tourne déjà. Arrête-la avant (poweroff dans la VM)."

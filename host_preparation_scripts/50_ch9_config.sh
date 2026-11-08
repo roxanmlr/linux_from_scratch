@@ -99,7 +99,7 @@ CLOCKPARAMS=
 EOF
 
     # Vérifie que le clavier et la police existent bien (kbd, 8.67)
-    find /usr/share/keymaps -name "$CONSOLE_KEYMAP.map*" | grep -q . \
+    find /usr/share/keymaps -name "$CONSOLE_KEYMAP.map*" | grep . >/dev/null \
         || { echo "keymap '$CONSOLE_KEYMAP' introuvable dans /usr/share/keymaps"; exit 1; }
     ls /usr/share/consolefonts/"$CONSOLE_FONT".* >/dev/null \
         || { echo "police '$CONSOLE_FONT' introuvable dans /usr/share/consolefonts"; exit 1; }
@@ -119,7 +119,7 @@ EOF
 locale_config() {
     # Vérification proposée par le livre : la locale doit exister
     # (locale -a écrit fr_FR.utf8 pour fr_FR.UTF-8)
-    locale -a | grep -qx "${LFS_LANG/UTF-8/utf8}" \
+    locale -a | grep -x "${LFS_LANG/UTF-8/utf8}" >/dev/null \
         || { echo "locale $LFS_LANG absente (localedef en 8.5)"; exit 1; }
     LC_ALL=$LFS_LANG locale charmap
 

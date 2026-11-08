@@ -1,0 +1,12 @@
+# BLFS 12.4 (sysv) - lot réseau : make-ca, curl, wget, OpenSSH
+# format : <md5|->  <url>
+930f71d788cf37505a0327c1b84741be  https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.20.0.tar.gz
+e9c5675508fcd8be54aa4c8cb8e794fc  https://github.com/p11-glue/p11-kit/releases/download/0.25.5/p11-kit-0.25.5.tar.xz
+bf9cea2d24fc5344d4951b49f275c595  https://github.com/lfs-book/make-ca/archive/v1.16.1/make-ca-1.16.1.tar.gz
+57dfd9e4eba93913a564aa14eab8052e  https://ftp.gnu.org/gnu/libunistring/libunistring-1.3.tar.xz
+a8e113e040d57a523684e141970eea7a  https://ftp.gnu.org/gnu/libidn/libidn2-2.3.8.tar.gz
+870a798ee9860b6e77896548428dba7b  https://github.com/rockdaboot/libpsl/releases/download/0.21.5/libpsl-0.21.5.tar.gz
+b8872bb6cc5d18d03bea8ff5090b2b81  https://curl.se/download/curl-8.15.0.tar.xz
+c70ba58b36f944e8ba1d655ace552881  https://ftp.gnu.org/gnu/wget/wget-1.25.0.tar.gz
+689148621a2eaa734497b12bed1c5202  https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-10.0p1.tar.gz
+-                                 https://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20250225.tar.xz

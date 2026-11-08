@@ -14,8 +14,15 @@ done
 [ "$(stat -c %U "$LFS/usr")" = root ] || { echo "$LFS/usr pas à root, lance 20_chown_root.sh"; exit 1; }
 
 sudo mkdir -p "$LFS/sources/ft_scripts"
-sudo cp "$DIR"/chroot_lib.sh "$DIR"/30_chroot_tools.sh "$LFS/sources/ft_scripts"
+sudo cp "$DIR"/chroot/*.sh "$LFS/sources/ft_scripts/"
 sudo chmod 755 "$LFS"/sources/ft_scripts/*.sh
+
+# Options des scripts du chroot transmises malgré env -i
+# (ex. TESTS=none ./22_enter_chroot.sh 41_ch8_lot2.sh)
+PASS=()
+for v in TESTS LFS_TZ FULL_LOCALES GROFF_PAGE SKIP_STRIP LFS_VENDOR LOOP; do
+    [ -n "${!v:-}" ] && PASS+=("$v=${!v}")
+done
 
 if [ $# -gt 0 ]; then
     CMD=(/bin/bash "/sources/ft_scripts/$1")
@@ -30,4 +37,5 @@ exec sudo chroot "$LFS" /usr/bin/env -i \
     PATH=/usr/bin:/usr/sbin         \
     MAKEFLAGS="-j$(nproc)"          \
     TESTSUITEFLAGS="-j$(nproc)"     \
+    "${PASS[@]}"                    \
     "${CMD[@]}"

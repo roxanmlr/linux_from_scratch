@@ -1,0 +1,11 @@
+# BLFS 12.4 (sysv) - lot X 3 : GLib, HarfBuzz, Cairo, Pango, police DejaVu, Openbox
+f71abbe1b5adf25cd9af5d26ef223b66  https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.45/pcre2-10.45.tar.bz2
+5655d0ff809b98dd77c02490609fadde  https://download.gnome.org/sources/glib/2.84/glib-2.84.4.tar.xz
+333ad150991097a627755b752b87f9ff  https://github.com/fribidi/fribidi/releases/download/v1.0.16/fribidi-1.0.16.tar.xz
+0f2f8fe443032019b5ca9598c8e2b912  https://github.com/harfbuzz/harfbuzz/releases/download/11.4.1/harfbuzz-11.4.1.tar.xz
+db575fb41bbda127e0147e401f36f8ac  https://www.cairographics.org/releases/cairo-1.18.4.tar.xz
+3db267bc07bfd96615c652e9187b85b5  https://download.gnome.org/sources/pango/1.56/pango-1.56.4.tar.xz
+59aac4e5d1d350ba2c4bddf1f7bc5098  https://download.gnome.org/sources/libxml2/2.14/libxml2-2.14.5.tar.xz
+-                                 https://downloads.sourceforge.net/dejavu/dejavu-fonts-ttf-2.37.tar.bz2
+b72794996c6a3ad94634727b95f9d204  http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz
+-                                 https://www.linuxfromscratch.org/patches/blfs/12.4/openbox-3.6.1-py3-1.patch

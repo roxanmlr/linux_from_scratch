@@ -1,0 +1,18 @@
+# BLFS 12.4 (sysv) - palier 2, lot Xfce 4.20 (chapitre « Xfce Desktop », sans thunar-volman ni xfce4-power-manager)
+8e30b7735333f74d80c379e15d9da145  https://archive.xfce.org/src/xfce/libxfce4util/4.20/libxfce4util-4.20.1.tar.bz2
+ca596ff0a9be7fa655bb09cb05458644  https://archive.xfce.org/src/xfce/xfconf/4.20/xfconf-4.20.0.tar.bz2
+ce54074a9ed7964b4a3274e8ac74d949  https://archive.xfce.org/src/xfce/libxfce4ui/4.20/libxfce4ui-4.20.2.tar.bz2
+f059ec3d8686d4b322c42d19ebec0366  https://archive.xfce.org/src/xfce/exo/4.20/exo-4.20.0.tar.bz2
+fe17e9cb15a62013e0086183a446e89e  https://archive.xfce.org/src/xfce/garcon/4.20/garcon-4.20.0.tar.bz2
+b8c29ef589d3427c8a699c1542a2d25e  https://download.gnome.org/sources/libwnck/43/libwnck-43.2.tar.xz
+5dc0179c81be7a3082b43030ecfdebd4  https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.43.tar.xz
+bea58046e67b4274c022fcff893fa350  https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.20/xfce4-dev-tools-4.20.0.tar.bz2
+b27e6ebf153fbca5184147b6d3775762  https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.4.tar.bz2
+cf0d6ac7e084b1171e0b46756f2b3c5f  https://archive.xfce.org/src/xfce/xfce4-panel/4.20/xfce4-panel-4.20.5.tar.bz2
+3a9a8c5606348a51e0dee292fac0a280  https://archive.xfce.org/src/xfce/thunar/4.20/thunar-4.20.4.tar.bz2
+8746afe5822d3564a5cd43945d488db7  https://archive.xfce.org/src/xfce/tumbler/4.20/tumbler-4.20.0.tar.bz2
+e60f6c2521a985c6cfe09057d4fb2d69  https://archive.xfce.org/src/xfce/xfce4-appfinder/4.20/xfce4-appfinder-4.20.0.tar.bz2
+5f249a8398718995edb264b132059029  https://archive.xfce.org/src/xfce/xfce4-settings/4.20/xfce4-settings-4.20.2.tar.bz2
+b845397fed5e555fa8dce4b189365dbc  https://archive.xfce.org/src/xfce/xfdesktop/4.20/xfdesktop-4.20.1.tar.bz2
+e74cfb30b6e9ebf9cbaac0827dd534e3  https://archive.xfce.org/src/xfce/xfwm4/4.20/xfwm4-4.20.0.tar.bz2
+a97ee6039a463dd845b3869275f0c34e  https://archive.xfce.org/src/xfce/xfce4-session/4.20/xfce4-session-4.20.3.tar.bz2
